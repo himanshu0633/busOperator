@@ -1,0 +1,2 @@
+import React from 'react';import{Header}from'../components/Layout';import{Card,Field}from'../components/UI';
+export default function Earnings(){return <><Header back title="Withdraw Funds" subtitle="Transfer settlement to bank"/><Card className="withdraw-card"><div className="balance"><span>Available Balance</span><b>₹3,71,000</b></div><Field label="WITHDRAWAL AMOUNT*" value="200000"/><Field label="BANK ACCOUNT"/><button className="full primary">Initiate Transfer</button></Card></>}
